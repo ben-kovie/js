@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>  Logging page  </title>
+ <script type =  "text/javascript" >
+ /**/
+ function validate() {
+         var firstName = document.getElementById ("firstN");
+		 var lastName  = document.getElementById ( "lastN" );
+		 var email     = document.getElementById ("mail");
+		 var password  = document.getElementById ("Pword");
+		 if ( firstName.value == "" ||  lastName.value == "" || email.value==""  || password.value =="" )
+		 { alert (  "please complete the blank tabs" );
+		 return false;
+		 } else { alert (  " thank you " + firstName.value );
+		 return true;
+		 }
+ }
+ 
+ </script >
+</head>
+   
+   <body>
+ <form onsubmit="return validate( )" action = "page.html" > 
+
+ <br /> <br /> 
+    FIRST NAME:<input type =  "text"  id =  "firstN" > 
+	  <br /> <br />
+	LAST NAME:<input type =  "text" id =  "lastN"> 
+	  <br /> <br />
+	USERNAME:<input type =  "text" id =  "userN" > 
+	  <br /> <br />
+	EMAIL:<input type =  "text" id =  "mail" > 
+	  <br /> <br />
+	  PASSWORD:<input type =  "password" id =  "Pword" > 
+	  <br /> <br />
+	  
+	<button type = "submit" > SIGN IN </button>
+	
+ </form>
+ 
+
+   </body>
+
+</ html>

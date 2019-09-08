@@ -1,0 +1,110 @@
+
+a { color:#191970;
+text-decoration:none;
+font-weight:bold;
+font-size:35px;
+font-family: Lato;
+ display: inline-block;
+ text-align: center;
+    background-color: white;
+	 padding: 14px 15px;}
+
+a:hover {color:#B0C4DE;
+ background-color:#b4b4b4; padding: 14px 25px;}
+
+header{width:90%;
+height:80px;
+padding:0px 80px}
+
+ #menu{display:none;}
+
+  #home{padding:0px 70px;
+ float:left;}
+ 
+ #signin{padding:15px 30px 10px;
+ float:right;}
+ 
+  #signup{float:right;padding:15px 30px 10px;}
+   
+      #background{  background: url(./under.jpg) lightblue;  
+	  height:580px;width:100%;
+	  position:absolute;
+	   }
+	   
+	   .btn{text-align:center;
+	   font-family:proxina nova;
+	  border:7px red;
+	  padding:50px;
+	   border~radius; }
+	   
+	   #text{text-align:center;
+	   padding:100px 15px 5px;
+ }
+ 
+ 
+ .paragraph{font-size:40px;
+font-family:forte;
+color:#ABB5F1;}
+ 
+   .quote{text-align:center;
+   color:white;
+   font-size:18px;}
+   
+    .GOT{text-align:center;
+   color:white;
+   font-size:18px;}
+ 
+   #footer{position:absolute;
+	   top:800px;
+	   width:100%; height:500px;text-align:center;
+}
+ 
+.fimage{height:70px;padding:400px 0px 0px;}
+ 
+  #list{position:absolute;
+	   top:170px;width:100%;
+	   float:right;
+}
+ 
+  #socialmedia{position:absolute;
+	   top:150px;left:36%;
+}
+@media screen and (max-width: 1200px) and (min-width: 700px)
+{
+#signin{display:none;}
+
+ #signup{display:none;} 
+ 
+   #text{text-align:center;padding:20px 2px;}
+   
+ .paragraph{font-size:30px;
+font-family:forte;
+color:#ABB5F1;}
+
+ #socialmedia{position:absolute;
+	   top:150px;left:28%;}
+	   
+	     #background{ height:680px;} 
+		 
+		 header{padding:0px 0px}
+		 
+		  #menu{display:block;float:right;}
+} 
+
+@media screen and (max-width: 700px){
+	.paragraph{font-size:15px;}
+	
+	#background{ height:685px;}
+
+ #socialmedia{left:15%;}
+ 
+ #home{padding:0px;}
+  
+  #signup{display:none} 
+
+#signin{display:none;}
+
+header{padding:3px 8px}
+
+   #menu{display:block;float:right;}
+}
